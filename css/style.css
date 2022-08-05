@@ -45,3 +45,192 @@ img{
 .main-content{
      flex-grow: 1;
 }
+
+/* NAVBAR  */
+
+.main-navbar {
+}
+.container-nav {
+}
+.logo-container {
+     margin-top: 25px;
+     margin-left: 50px;
+}
+.logo-link {
+     display: inline;
+}
+.logo-img {
+     width: 350px;
+     height: 25px;
+}
+.nav-container {
+     margin-top: 25px;
+     background-color: #1548ab;
+}
+.navbar-nav {
+     margin: 0;
+     padding: 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+.navbar-list {
+     list-style: none;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+.navbar-link {
+     text-decoration: none;
+     color:  #fff;
+     font-size: 20px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* SLIDER  */
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: 0;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.slider-img{
+     min-height: 430px;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/* Article Section  */
+
+.article {
+     text-align: center;
+}
+.article-line {
+     margin: 0;
+     padding: 0;
+     margin-top: 10px;
+     width: 70px;
+     background-color: #000;
+     height: 1px;
+     margin-left: auto;
+     margin-right: auto;
+}
+.article-title {
+     margin: 0;
+     padding: 0;
+     margin-top: 10px;
+     font-size: 30px;
+     font-style: bold;
+}
+
+/* Service Section  */
+.service-wrapper{
+     display: flex;
+     align-items: center;
+
+}
+.services:first-child{
+     background-color:#ef9f39;
+}
+.services:nth-child(2){
+     background-color: #82d145;
+}
+.services:nth-child(3){
+     background-color: #4d7ce8;
+}
+.services:nth-child(4){
+     background-color: #2e4a84;
+}
+.services {
+     padding-top: 20px;
+     padding-left: 10px;
+     width: 300px;
+}
+.dervice-inner {
+}
+.service-card {
+}
+.service-titles {
+     text-decoration: none;
+     color: #fff;
+}
